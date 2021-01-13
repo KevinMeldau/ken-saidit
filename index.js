@@ -24,8 +24,8 @@ jokesCollection.on('value', function (results) {
     const key = result.key;
     const $li = $('<li>').attr('data-joke-id', key).text(joke);
     const $right = $('<div>').addClass('right').text('Votes: ' + votes);
-    const $upvote = $('<a>').attr('href', '#').addClass('upvote').text('+');
-    const $downvote = $('<a>').attr('href', '#').addClass('downvote').text('-');
+    const $upvote = $('<a>').attr('href', '#').addClass('upvote').append('<i class="fa fa-thumbs-up"></i>');
+    const $downvote = $('<a>').attr('href', '#').addClass('upvote').append('<i class="fa fa-thumbs-down"></i>');
     $right.prepend($downvote);
     $right.append($upvote);
     $li.append($right);

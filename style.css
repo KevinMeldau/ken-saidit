@@ -23,18 +23,14 @@ h2 {
   text-decoration: line-through;
 }
 
-h3 {
-  line-height: 1.5;
-  font-size: 1.6rem;
+a:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.text-xlarge {
+.text-large {
   font-size: 8rem;
 }
-/* 
-.text-large {
-  font-size: 140px;
-} */
 
 .card {
   background-color: rgba(0, 0, 0, 0.5);
@@ -44,6 +40,7 @@ h3 {
 .right {
   float: right;
 }
+
 
 .card-height {
   height: 50vh;
@@ -57,8 +54,19 @@ h3 {
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 1024px) {
+.upvote, .downvote {
+  margin: 0 20px;
+  color: #ffc107;
+}
+
+/* <i class="fas fa-thumbs-up"></i> */
+
+/* @media only screen and (max-width: 1024px) {
   h3 {
     font-size: 2.5rem;
   }
-}
+
+  a {
+    font-size: 2rem;
+  }
+} */
