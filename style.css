@@ -19,6 +19,10 @@ h2 {
   font-family: "Permanent Marker", cursive;
 }
 
+h3 {
+  color: #888888;
+}
+
 .line-through {
   text-decoration: line-through;
 }
@@ -41,7 +45,6 @@ a:hover {
   float: right;
 }
 
-
 .card-height {
   height: 50vh;
 }
@@ -54,19 +57,24 @@ a:hover {
   border-radius: 20px;
 }
 
-.upvote, .downvote {
+ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.upvote,
+.downvote {
   margin: 0 20px;
   color: #ffc107;
 }
 
-/* <i class="fas fa-thumbs-up"></i> */
-
-/* @media only screen and (max-width: 1024px) {
-  h3 {
-    font-size: 2.5rem;
+@media only screen and (max-width: 320px) {
+  li {
+    font-size: 4rem;
   }
-
-  a {
-    font-size: 2rem;
-  }
-} */
+}
