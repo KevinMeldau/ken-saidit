@@ -19,7 +19,7 @@ h2 {
   font-family: "Permanent Marker", cursive;
 }
 
-h1 {
+.line-through {
   text-decoration: line-through;
 }
 
@@ -29,7 +29,7 @@ h3 {
 }
 
 .text-xlarge {
-  font-size: 9rem;
+  font-size: 8rem;
 }
 /* 
 .text-large {
