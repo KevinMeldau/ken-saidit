@@ -44,3 +44,7 @@ h3 {
 .card-height {
   height: 50vh;
 }
+
+.fa {
+  margin-left: 10px;
+}
